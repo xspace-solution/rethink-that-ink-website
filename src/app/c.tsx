@@ -44,7 +44,7 @@ const Carousel = () => {
         <div className="flex-1 mx-4">
           <div className="text-center">
             <img src={testimonials[currentIndex].img} alt={testimonials[currentIndex].name} className="w-16 h-16 rounded-full mx-auto mb-2" />
-            <p className="italic">"{testimonials[currentIndex].quote}"</p>
+            <p className="italic">{testimonials[currentIndex].quote}</p>
             <p className="font-semibold mt-2">— {testimonials[currentIndex].name}</p>
           </div>
         </div>
